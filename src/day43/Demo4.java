@@ -6,6 +6,9 @@ public class Demo4 {
 
 	public static void main(String[] args) {
 		Vector<String> a=new Vector<String>();
+		a.addElement(null);
+		a.addElement(null);
+		a.addElement("Apple");
 		a.addElement("Apple");
 		a.addElement("Mango");
 		a.addElement("Chiku");

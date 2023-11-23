@@ -10,6 +10,8 @@ public class Demo5 {
 		books.push("Java");
 		books.push("Python");
 		books.push("SQL");
+		books.push(null);
+		books.push(null);
 		System.out.println(books);
 		System.out.println(books.peek());
 		System.out.println("removing:"+books.pop());
